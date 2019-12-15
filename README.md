@@ -20,6 +20,7 @@ ExtractFramesFromVideo.py InputPath [optional parameters]
 
 ### Optional parameters:
 
+Parameter          | Function             | Description                                                                                                                         |
 ------------------ | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 -h                 | display help message |                                                                                                                                     |
 -o, --outputpath   | output path          | set path to output directory (default: output_directory = input_directory)                                                          |
