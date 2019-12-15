@@ -20,14 +20,15 @@ ExtractFramesFromVideo.py InputPath [optional parameters]
 
 ### Optional parameters:
 
--h			display help message
--o, --outputpath	output path		set path to output directory (default: output_directory = input_directory)  
--f, --framerate 	frame rate		set output frame-rate/second. E.g. set "0.5" for one picture per two seconds (default: 1)  
---jpg			JPG			set JPG as output format (default: PNG)  
---frameTimeLimit 	frame time limit	set time limit [sec] for frame extraction (e.g. set "20" to extract extracting frames from the first 20 seconds (default: no limit)  
---removeOriginals	remove originals	CAUTION: if flag is set, all original video files will be removed after extracting frames (default: keep originals)  
---logfile		logfile			produce "ExtractFramesFromVideo.log" listing processed video files  
---jaguar		jaguar
+------------------ | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+-h                 | display help message |                                                                                                                                     |
+-o, --outputpath   | output path          | set path to output directory (default: output_directory = input_directory)                                                          |
+-f, --framerate    | frame rate           | set output frame-rate/second. E.g. set "0.5" for one picture per two seconds (default: 1)                                           |
+--frameTimeLimit   | frame time limit     | set time limit [sec] for frame extraction (e.g. set "20" to extract extracting frames from the first 20 seconds (default: no limit) |
+--removeOriginals  | remove originals     | CAUTION: if flag is set, all original video files will be removed after extracting frames (default: keep originals)                 |
+--logfile          | generate logfile     | produce "ExtractFramesFromVideo.log" listing processed video files                                                                  |
+--jpg              | JPG                  | set JPG as output format (default: PNG)                                                                                             |
+
 
 
 ## Example:
