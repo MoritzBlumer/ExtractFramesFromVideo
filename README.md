@@ -1,6 +1,6 @@
 # Script to extract frames from videos in bulk
 
-## Motivation:
+## About:
 
 Provided a mixed dataset of image and video files in a nested directory structure, we looked for a way to extract a fixed number of frames for the first 10 seconds from each video file. This script uses [FFmpeg](https://www.ffmpeg.org) to extract frames and uses [ExifTool](https://exiftool.org) to read datetime information from the original video file and to write it to the meta data of the extracted frames. The user can set the rate at which frames will be extracted [-f] and a time limit in seconds after which extraction of files stops [--frameTimeLimit]. If no output [-o] directory is specified, frames will be extracted in place. If extraction fails for any video file, it will be added to an error log file. 
 
