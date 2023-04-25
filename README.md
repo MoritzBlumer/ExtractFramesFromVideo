@@ -7,10 +7,9 @@ Provided a mixed dataset of image and video files in a nested directory structur
 
 
 ## Dependencies:
-* Python 3
 * [ffmpy](https://pypi.org/project/ffmpy/)		(pip install ffmpy)
 * [exiftool](https://exiftool.org)		(callable from command line)
-* python packages (standard library): pandas, datetime, os, sys, subprocess, json, argparse, pathlib
+* Python: pandas, datetime, subprocess, json, argparse, pathlib
 
 
 ## Usage:
@@ -32,7 +31,7 @@ Parameter          | Function             | Description                         
 
 
 
-## Example:
+## Example command line:
 
 ExtractFramesFromVideo.py inputPath -o outputPath -f 2 --frameTimeLimit 10 --removeOriginals --logfile
 
